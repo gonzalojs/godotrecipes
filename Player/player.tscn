@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqh8fbro4erhc"]
+
+[ext_resource type="PackedScene" uid="uid://djwctmk7qh6hw" path="res://Player/basic_movement_character_2d.tscn" id="1_qfst7"]
+
+[node name="Player" instance=ExtResource("1_qfst7")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]

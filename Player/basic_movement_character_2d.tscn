@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://djwctmk7qh6hw"]
+
+[ext_resource type="Script" path="res://Player/basic_movement_character_2d.gd" id="1_5tfw0"]
+
+[node name="BasicMovementCharacter2D" type="CharacterBody2D"]
+collision_layer = 0
+floor_constant_speed = true
+floor_snap_length = 64.0
+script = ExtResource("1_5tfw0")
